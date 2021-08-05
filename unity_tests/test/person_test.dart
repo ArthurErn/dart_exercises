@@ -22,7 +22,8 @@ void main() {
     expect(person.imc, equals(25.66));
   });
 
-  test("maior que 18", () {
+  group('isOlder | ', (){
+    test("maior que 18", () {
     print('executando...\n');
     expect(person.isOlder, true);
   });
@@ -31,4 +32,6 @@ void main() {
     print('executando...\n');
     expect(person.isOlder, true);
   });
+  });
+  
 }
