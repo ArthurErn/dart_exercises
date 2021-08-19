@@ -1,7 +1,6 @@
-//  11 - Faça um programa que peça 2 números inteiros e um número real. Calcule e mostre:
+// 11 - Faça um programa que peça 2 números inteiros e um número real. Calcule e mostre:
 // o produto do dobro do primeiro com metade do segundo
-//  o terceiro elevado ao cubo
-
+// o terceiro elevado ao cubo
 import 'dart:math';
 
 class Calculo {

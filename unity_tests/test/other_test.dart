@@ -6,7 +6,7 @@ void main() {
   test('impossivel parsear X', () {
     expect(
       () => int.parse('x'),
-      throwsException
+      throwsException//esperando exception
     );
   });
 }
