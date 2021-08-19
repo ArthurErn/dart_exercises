@@ -23,12 +23,12 @@ void main() {
   });
 
   group('isOlder | ', (){
-    test("maior que 18", () {
+    test('maior que 18', () {
     print('executando...\n');
     expect(person.isOlder, true);
   });
 
-  test("igual a 18", () {
+  test('igual a 18', () {
     print('executando...\n');
     expect(person.isOlder, true);
   });

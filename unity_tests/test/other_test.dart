@@ -1,5 +1,5 @@
-@Timeout(Duration(seconds: 60))
-@Skip('Não implementado')
+@Timeout(Duration(seconds: 10))
+//@Skip('Não implementado')
 import 'package:test/test.dart';
 
 void main() {
